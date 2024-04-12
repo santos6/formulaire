@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire de contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!---------------- HEADER ------------------>
+    <header>
+        <a href="#" class="logo"><span class="yellow-text">Logo</span> Here</a>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features <i class="bi bi-chevron-down"></i></a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#" class="yellow-text">Contact</a></li>
+                <li><a href="#" class="icon-circle"><i class="bi bi-person"></i></a></li>
+                <li><a href="#" class="icon-circle"><i class="bi bi-cart"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <!---------------- MAIN ------------------>
+    <main>
+        <section>
+            <div class="contactus-box">
+                <h1 class="yellow-text">Contact Us</h1>
+                <p>Any or remarks? Just write us a message</p>
+            </div>
+
+            <div class="box">
+                <div class="box-left">
+                    <div>
+                        <h2>Contact Information</h2>
+                        <p>Say something to start a live chat!</p>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><i class="bi bi-telephone"></i> +1012 3456 789</li>
+                            <li><i class="bi bi-envelope"></i> demo@gmail.com</li>
+                            <li><i class="bi bi-geo-alt-fill"></i> 132 Dartmouth Street Boston, Massachusetts 02156 United States</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <i class="bi bi-twitter"></i>
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-discord"></i>
+                    </div>
+                </div>
+
+                <div class="box-right">
+                        <form action="">
+                            <div>
+                                <label for="firstname" >First Name</label>
+                                <input type="text" id="firstname">
+                                <label for="lastname" >Last Name</label>
+                                <input type="text" id="lastname">
+                                <label for="email" >Email</label>
+                                <input type="email" id="email">
+                                <label for="tel" >Phone Number</label>
+                                <input type="tel" id="tel">
+                            </div>
+                            <div>
+                                <h3>Select Subject?</h3>
+                                <input type="radio" id="radio-1" name="GeneralInquiry">
+                                <label for="radio-1">General Inquiry</label>
+
+                                <input type="radio" id="radio-2" name="GeneralInquiry">
+                                <label for="radio-2">General Inquiry</label>
+
+                                <input type="radio" id="radio-3" name="GeneralInquiry">
+                                <label for="radio-3">General Inquiry</label>
+
+                                <input type="radio" id="radio-4" name="GeneralInquiry">
+                                <label for="radio-4">General Inquiry</label>
+                            </div>
+
+                            <div>
+                                <label for="message">Message</label>
+                                <textarea name="message" id="message"></textarea>
+                            </div>
+
+                            <button type="submit">Send Message</button>
+                            
+
+                        </form>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
